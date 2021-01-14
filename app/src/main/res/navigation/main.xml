@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/statistics">
+
+    <fragment
+        android:id="@+id/statistics"
+        android:name="com.example.blind_wallet.Volunteer.StatisticsFragment"
+        android:label="Statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/blindman"
+        android:name="com.example.blind_wallet.Volunteer.BlindFragment"
+        android:label="Blind"
+        tools:layout="@layout/fragment_blind" />
+    <fragment
+        android:id="@+id/volunteerman"
+        android:name="com.example.blind_wallet.Volunteer.VolunteerFragment"
+        android:label="Volunteer"
+        tools:layout="@layout/fragment_volunteer" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.blind_wallet.Volunteer.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/addadmin"
+        android:name="com.example.blind_wallet.Volunteer.AddAdminFragment"
+        android:label="fragment_add_admin"
+        tools:layout="@layout/fragment_add_admin" />
+</navigation>

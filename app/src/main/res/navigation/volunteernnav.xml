@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/volunteernnav"
+    app:startDestination="@id/addblind">
+
+    <fragment
+        android:id="@+id/contactus"
+        android:name="com.example.blind_wallet.Volunteer.ContactusFragment"
+        android:label="Contactus"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/addreview"
+        android:name="com.example.blind_wallet.Volunteer.AddReviewFragment"
+        android:label="Add Review"
+        tools:layout="@layout/fragment_add_review" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.blind_wallet.Volunteer.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/addblind"
+        android:name="com.example.blind_wallet.Volunteer.Notifications.AddBlindFragment"
+        android:label="Add Blind"
+        tools:layout="@layout/fragment_add_blind" />
+
+
+    <fragment
+        android:id="@+id/myblind"
+        android:name="com.example.blind_wallet.Volunteer.TrackingSystem.myblindFragment"
+        android:label="fragment_myblind"
+        tools:layout="@layout/fragment_myblind" />
+
+</navigation>

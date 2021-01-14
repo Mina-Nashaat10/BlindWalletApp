@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/statistics"
+        android:icon="@drawable/statis_icon"
+        android:title="Statistics"/>
+    <item android:title="Users">
+        <menu>
+            <item
+                android:id="@+id/blindman"
+                android:icon="@drawable/blindman"
+                android:title="Blind"/>
+            <item
+                android:id="@+id/volunteerman"
+                android:icon="@drawable/volunteerman"
+                android:title="Volunteer"/>
+            <item
+                android:id="@+id/addadmin"
+                android:icon="@drawable/addblind"
+                android:title="Add Admin"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="Logout"/>
+</menu>

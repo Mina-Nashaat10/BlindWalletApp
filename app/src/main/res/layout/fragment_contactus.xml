@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contactus2"
+    tools:context=".Volunteer.ContactusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="3dp"
+            android:text="Your Name"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_name"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.6"
+            android:background="@drawable/edittext"
+            android:backgroundTint="#AAAAAA"
+            android:hint="Name"
+            android:inputType="text"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#3C3C3C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="Your Email"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_email"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.6"
+            android:background="@drawable/edittext"
+            android:backgroundTint="#AAAAAA"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#3C3C3C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="Subject"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_subject"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.6"
+            android:background="@drawable/edittext"
+            android:backgroundTint="#AAAAAA"
+            android:hint="Your Subject"
+            android:inputType="text"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#3C3C3C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="32dp"
+            android:paddingLeft="3dp"
+            android:text="Your Message"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/your_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:height="180dp"
+            android:alpha="0.6"
+            android:background="@drawable/edittext"
+            android:backgroundTint="#AAAAAA"
+            android:gravity="top"
+            android:hint="Message"
+            android:inputType="textMultiLine"
+            android:padding="5dip"
+            android:textColor="#000000"
+            android:textColorHint="#3C3C3C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/post_message"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style"
+            android:paddingStart="50dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="50sp"
+            android:paddingRight="15dp"
+            android:paddingBottom="1dp"
+            android:text="Send Message"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</FrameLayout>

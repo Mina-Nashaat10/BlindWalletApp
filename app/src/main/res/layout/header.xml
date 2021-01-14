@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="20sp"
+    android:background="@drawable/background"
+    android:id="@+id/headerlayout"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFFFFF"
+        android:layout_marginLeft="1dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Fareed"
+            android:textAllCaps="true"
+            android:textColor="#FF1493"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FF1493"
+            android:text="fareed@gmail.com"
+            android:textSize="16dp"
+              />
+    </LinearLayout>
+
+</LinearLayout>
